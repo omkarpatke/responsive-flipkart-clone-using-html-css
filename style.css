@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap'); 
+body{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --main-bg-color: #2874f0;
+}
+header{
+    background-color: var(--main-bg-color);
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+ nav .link-item{
+    display: flex;
+    color: black;
+}
+
+.nav-link-item{
+    color: black;
+}
+
+nav ul li a{
+    list-style: none;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    
+}
+
+nav ul li a:hover{
+    font-weight: bold;
+    color: white;  
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    margin-block: 8px;
+    
+    
+    
+}
+nav ul li{
+    padding:0 30px;
+    list-style: none;
+   
+}
+
+
+
+nav{
+    height: 35px;
+    display: flex;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    padding: 200px;
+    width: 130px;
+}
+
+.search{
+    display: flex;
+   align-self: center;
+    height: 30px;
+  margin-left: -170px;
+    
+    }
+.search input{
+  width: 500px;
+  border-radius: 3px;
+  height: 2rem;
+  display: flex;
+  align-self: center;
+
+} 
+
+.search .btn{
+    font-family: 'Lato', sans-serif;
+}
+
+.heading-1{
+   margin-left: 3rem;
+   margin-top: 3rem;
+}
+
+.slider{
+    display: flex;
+    justify-content: center;
+    margin-top: 12px;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
+.card{
+    
+    max-width: 90vw;
+    margin: auto;
+}
+
+.card h2{
+    font-family: 'Lato', sans-serif;
+}
+
+.card{
+    display: flex;
+    align-items: center;
+   justify-content: flex-start;
+   flex-direction: row;
+  
+  padding: 0 1rem 1rem;
+}
+
+.card-item{
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+   margin: 1rem;
+   
+   flex-wrap: wrap;
+}
+
+.container{
+    min-height: calc(100vh - 35px - 10vh );
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    background-color: var(--main-bg-color);
+    color: white;
+    font-family: 'Lato', sans-serif;
+}

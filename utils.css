@@ -1,0 +1,12 @@
+.btn{
+    background-color: white;
+    color: var(--main-bg-color);
+    margin: 0 10px;
+    cursor: pointer;
+    border-radius: 3px;
+    font-weight: 500;
+}
+
+.my-2{
+    margin: 3px 0;
+}
