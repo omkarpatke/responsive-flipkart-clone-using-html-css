@@ -10,6 +10,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        
        
     }
      nav .logo{
@@ -35,6 +36,10 @@
 
     .card-item img{
         width: 130px;
+    }
+
+    .card{
+       overflow: scroll;
     }
    
     }
