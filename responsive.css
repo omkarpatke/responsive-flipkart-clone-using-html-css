@@ -1,11 +1,40 @@
 @media screen and (max-width:1000px) {
 
-    body{
-        background-color: red;
-    }
     
-    nav{
-        display: flex;
-        flex-direction: column;
+    header{
+        height: fit-content;
+        justify-self: center;
     }
+    nav{
+      display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+       
+    }
+     nav .logo{
+      margin-top: -180px;
+      justify-self: center;
+    }
+
+    .search{
+        margin-top: -170px;
+        margin-left:2rem ;
+        justify-self: center;
+        width: 70vw;
+      
+    }
+    .nav-link-item{
+        margin-bottom: 1rem;
+        justify-content: center;
+        justify-self: center;
+    }
+    .slider{
+        height: 35vh;
+    }
+
+    .card-item img{
+        width: 130px;
+    }
+   
     }
